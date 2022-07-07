@@ -13,11 +13,11 @@ provider "aws" {
   region = var.region
 }
 
-resource "aws_instance" "app_server" {
-  ami           = var.ami
-  instance_type = var.instance_type
+module "ec2_instances" {
+  source = "./modules/instance"
 
-  tags = {
-    Name = var.instance_name
-  }
+  # 変数設定可能
+  instance_type = "t2.micro"
+
+  tags = var.tags
 }
