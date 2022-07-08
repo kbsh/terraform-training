@@ -2,12 +2,12 @@
 
 ファイルについて
 
-|名前|説明|h
-|---|---|
-|main.tf|主実行構成|
-|variables.tf|変数設定|
-|output.tf|出力項目|
-|versions.tf|プロバイダープラグイン、CLIバージョン規定など|
+名前 | 説明
+--- | ---
+main.tf |主実行構成
+variables.tf |変数設定
+output.tf | 出力項目
+versions.tf |プロバイダープラグイン、CLIバージョン規定など
 
 command
 ```
