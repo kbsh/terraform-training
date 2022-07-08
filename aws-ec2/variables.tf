@@ -9,6 +9,6 @@ variable "tags" {
   default     = {
     project = "appha"
     environment = "dev"
-    Name = "test-hoge3"
+    Name = "test-hoge4"
   }
 }
