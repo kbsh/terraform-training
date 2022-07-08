@@ -1,4 +1,5 @@
 terraform {
+/* github/terraform cloudのVCS統合
   cloud {
     organization = "kbsh"
 
@@ -6,6 +7,7 @@ terraform {
       name = "example-workspace"
     }
   }
+*/
 
   required_providers {
     aws = {
